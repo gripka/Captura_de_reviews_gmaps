@@ -7,7 +7,7 @@ from tkinter.filedialog import asksaveasfilename
 from googletrans import Translator
 
 # Coloque sua chave da API do Google Maps aqui
-gmaps = googlemaps.Client(key='AIzaSyCO6rPf01s9fvy7LnT3lrTFQrDL66IvkZg')
+gmaps = googlemaps.Client(key=' COLOQUE A CHAVE API DO GOOGLE AQUI')
 
 # Solicite que o usuário insira a cidade e o nome do estabelecimento
 cidade = input('Digite a cidade: ').lower()
